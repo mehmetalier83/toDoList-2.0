@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		649699782B6CD895009C91C1 /* BigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649699772B6CD895009C91C1 /* BigButton.swift */; };
+		6496997A2B6CDEC0009C91C1 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649699792B6CDEC0009C91C1 /* Alerts.swift */; };
+		6496997C2B6CDF93009C91C1 /* Email + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496997B2B6CDF93009C91C1 /* Email + Ext.swift */; };
 		64ACF2662B6C160A006A9DA1 /* AlphatoDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACF2652B6C160A006A9DA1 /* AlphatoDoListApp.swift */; };
 		64ACF2682B6C160A006A9DA1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACF2672B6C160A006A9DA1 /* MainView.swift */; };
 		64ACF26A2B6C160A006A9DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ACF2692B6C160A006A9DA1 /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		649699772B6CD895009C91C1 /* BigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButton.swift; sourceTree = "<group>"; };
+		649699792B6CDEC0009C91C1 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		6496997B2B6CDF93009C91C1 /* Email + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Email + Ext.swift"; sourceTree = "<group>"; };
 		64ACF2622B6C160A006A9DA1 /* AlphatoDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphatoDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64ACF2652B6C160A006A9DA1 /* AlphatoDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphatoDoListApp.swift; sourceTree = "<group>"; };
 		64ACF2672B6C160A006A9DA1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -164,6 +170,7 @@
 				64ACF2B72B6C1A1C006A9DA1 /* RegisterView.swift */,
 				64ACF2B92B6C1A26006A9DA1 /* ToDoListView.swift */,
 				64ACF2BB2B6C1A54006A9DA1 /* ToDoListItemView.swift */,
+				649699772B6CD895009C91C1 /* BigButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +190,8 @@
 				64ACF2652B6C160A006A9DA1 /* AlphatoDoListApp.swift */,
 				64ACF2AA2B6C17C9006A9DA1 /* GoogleService-Info.plist */,
 				64ACF2692B6C160A006A9DA1 /* Assets.xcassets */,
+				649699792B6CDEC0009C91C1 /* Alerts.swift */,
+				6496997B2B6CDF93009C91C1 /* Email + Ext.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -304,7 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6496997C2B6CDF93009C91C1 /* Email + Ext.swift in Sources */,
 				64ACF2B42B6C1A09006A9DA1 /* NewItemView.swift in Sources */,
+				6496997A2B6CDEC0009C91C1 /* Alerts.swift in Sources */,
 				64ACF2C82B6C1AEF006A9DA1 /* LoginViewViewModel.swift in Sources */,
 				64ACF2682B6C160A006A9DA1 /* MainView.swift in Sources */,
 				64ACF2C22B6C1AA4006A9DA1 /* MainViewViewModel.swift in Sources */,
@@ -312,6 +323,7 @@
 				64ACF2CA2B6C1AFC006A9DA1 /* RegisterViewViewModel.swift in Sources */,
 				64ACF2B22B6C19F9006A9DA1 /* ProfileView.swift in Sources */,
 				64ACF2B82B6C1A1C006A9DA1 /* RegisterView.swift in Sources */,
+				649699782B6CD895009C91C1 /* BigButton.swift in Sources */,
 				64ACF2C42B6C1AD2006A9DA1 /* ProfileViewViewModel.swift in Sources */,
 				64ACF2CE2B6C1B20006A9DA1 /* ToDoListItemViewViewModel.swift in Sources */,
 				64ACF2B62B6C1A11006A9DA1 /* LoginView.swift in Sources */,
